@@ -1,0 +1,20 @@
+<package>
+  <name>asr_ros_uri</name>
+  <version>1.0.0</version>
+  <description>
+    The asr_ros_uri package delivers functionality equally to resource_finder.
+    With one exception: It doesn't load the resource into memory but just delivers the uri path to a given file or a file path for a given uri.
+  </description>
+  <author>Schleicher Ralf</author>
+  <maintainer email="pascal.meissner@posteo.de">Meißner Pascal</maintainer>
+  <license>BSD</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>roslib</build_depend>
+  
+  <run_depend>roscpp</run_depend>
+  <run_depend>roslib</run_depend>
+</package>
+
+
