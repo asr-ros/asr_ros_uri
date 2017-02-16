@@ -6,7 +6,7 @@
     With one exception: It doesn't load the resource into memory but just delivers the uri path to a given file or a file path for a given uri.
   </description>
   <author>Schleicher Ralf</author>
-  <maintainer email="pascal.meissner@posteo.de">Meißner Pascal</maintainer>
+  <maintainer email="asr-ros@lists.kit.edu">Meißner Pascal</maintainer>
   <license>BSD</license>
   
   <buildtool_depend>catkin</buildtool_depend>
