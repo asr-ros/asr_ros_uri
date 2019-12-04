@@ -29,3 +29,5 @@ target_link_libraries(${PROJECT_NAME}
   ${Boost_LIBRARIES}
 )
 
+install(DIRECTORY include/
+	DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION})
